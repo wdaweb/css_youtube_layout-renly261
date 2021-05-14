@@ -1,0 +1,922 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+hr {
+  size: 1px;
+  width: 90%;
+}
+
+/* 最上方--------------------------------------------------------------------------------- */
+.top {
+  width: 100%;
+  height: 56px;
+  background: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.list {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.ytLogo {
+  width: 98px;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.searchbar {
+  width: 550px;
+  height: 32px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid lightgray;
+}
+
+.searchButton {
+  width: 65px;
+  height: 32px;
+  background: white;
+  border: 1px solid lightgray;
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.search {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.mic {
+  position: absolute;
+  left: 70%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.program {
+  position: absolute;
+  left: 87.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.setting {
+  position: absolute;
+  left: 90.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.topLoginOut {
+  width: 85px;
+  height: 40px;
+  border: 1px solid blue;
+  position: absolute;
+  left: 95%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topLogin {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.topLoginText {
+  color: blue;
+  position: absolute;
+  font-size: 14px;
+  left: 50%;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+/* 選單區------------------------------------------------------------------------------------- */
+.left {
+  width: 240px;
+  height: 100%;
+  background: white;
+  float: left;
+  position: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.homepage {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.homepage p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.explore {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  cursor: pointer;
+}
+
+.explore p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.subs {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  cursor: pointer;
+}
+
+.subs p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr1 {
+  position: absolute;
+  top: 27%;
+}
+
+.video {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  cursor: pointer;
+}
+
+.video p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.history {
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  cursor: pointer;
+}
+
+.history p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr2 {
+  position: absolute;
+  top: 42%;
+}
+
+.leftLogIn {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+.leftLogInOut {
+  border: 1px solid blue;
+  width: 85px;
+  height: 40px;
+  position: absolute;
+  left: 9%;
+  top: 7%;
+  cursor: pointer;
+}
+
+.leftLogInOut span {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+}
+
+.leftLogIn p:nth-of-type(1) {
+  font-size: 14px;
+  position: absolute;
+  top: 0%;
+  padding: 0 20px 0 20px;
+}
+
+.leftLogIn p:nth-of-type(2) {
+  font-size: 14px;
+  position: absolute;
+  top: 8.4%;
+  left: 26%;
+  color: blue;
+  cursor: pointer;
+}
+
+.hr3 {
+  position: absolute;
+  top: 60%;
+}
+
+.leftTitle1 {
+  color: gray;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 62%;
+}
+
+.music {
+  position: absolute;
+  left: 10%;
+  top: 67%;
+  cursor: pointer;
+}
+
+.music p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.sport {
+  position: absolute;
+  left: 10%;
+  top: 72%;
+  cursor: pointer;
+}
+
+.sport p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.game {
+  position: absolute;
+  left: 10%;
+  top: 77%;
+  cursor: pointer;
+}
+
+.game p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.news {
+  position: absolute;
+  left: 10%;
+  top: 82%;
+  cursor: pointer;
+}
+
+.news p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.stream1 {
+  position: absolute;
+  left: 10%;
+  top: 87%;
+  cursor: pointer;
+}
+
+.stream1 p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.vr {
+  position: absolute;
+  left: 10%;
+  top: 92%;
+  cursor: pointer;
+}
+
+.vr p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr4 {
+  position: absolute;
+  top: 98%;
+}
+
+.channel {
+  position: absolute;
+  left: 10%;
+  top: 100%;
+  cursor: pointer;
+}
+
+.channel p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr5 {
+  position: absolute;
+  top: 106%;
+}
+
+.littleTitle2 {
+  width: 100%;
+  height: 100%;
+  color: gray;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 108%;
+}
+
+.pre {
+  position: absolute;
+  left: 10%;
+  top: 113%;
+  cursor: pointer;
+}
+
+.pre p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.stream2 {
+  position: absolute;
+  left: 10%;
+  top: 118%;
+  cursor: pointer;
+}
+
+.stream2 p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr6 {
+  position: absolute;
+  top: 124%;
+}
+
+.leftSetting {
+  position: absolute;
+  left: 10%;
+  top: 126%;
+  cursor: pointer;
+}
+
+.leftSetting p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.report {
+  position: absolute;
+  left: 10%;
+  top: 132%;
+  cursor: pointer;
+}
+
+.report p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -70%);
+}
+
+.help {
+  position: absolute;
+  left: 10%;
+  top: 138%;
+  cursor: pointer;
+}
+
+.help p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.advise {
+  position: absolute;
+  left: 10%;
+  top: 144%;
+  cursor: pointer;
+}
+
+.advise p {
+  width: 240px;
+  font-size: 14px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(0, -60%);
+}
+
+.hr7 {
+  position: absolute;
+  top: 150%;
+}
+
+.footer1 {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 152%;
+  left: 20px;
+  cursor: pointer;
+}
+
+.footer2 {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 155%;
+  left: 20px;
+  cursor: pointer;
+}
+
+.footer3 {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 160%;
+  left: 20px;
+  cursor: pointer;
+}
+
+.footer4 {
+  font-size: 12px;
+  color: gray;
+  position: absolute;
+  top: 162%;
+  left: 20px;
+  cursor: pointer;
+}
+
+.footer5 {
+  font-size: 12px;
+  color: rgb(148, 148, 148);
+  position: absolute;
+  top: 167%;
+  left: 20px;
+  cursor: pointer;
+}
+
+/* 影片區------------------------------------------------------------------------------------ */
+.content {
+  width: 1680px;
+  height: 100%;
+  background: white;
+  float: right;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.box1 {
+  width: 264px;
+  position: absolute;
+  left: 20%;
+  top: 15%;
+}
+
+.content a img {
+  width: 264px;
+  height: 148px;
+}
+
+.content img {
+  width: 40px;
+  height: 40px;
+}
+
+.box1 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box1 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box1 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box2 {
+  width: 264px;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.box2 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box2 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box2 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box3 {
+  width: 264px;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+}
+
+.box3 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box3 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box3 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box4 {
+  width: 264px;
+  position: absolute;
+  left: 80%;
+  top: 15%;
+}
+
+.box4 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box4 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box4 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box5 {
+  width: 264px;
+  position: absolute;
+  left: 20%;
+  top: 55%;
+}
+
+.box5 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box5 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box5 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box6 {
+  width: 264px;
+  position: absolute;
+  left: 40%;
+  top: 55%;
+}
+
+.box6 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box6 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box6 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box7 {
+  width: 264px;
+  position: absolute;
+  left: 60%;
+  top: 55%;
+}
+
+.box7 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box7 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box7 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box8 {
+  width: 264px;
+  position: absolute;
+  left: 80%;
+  top: 55%;
+}
+
+.box8 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box8 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box8 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.hrr1 {
+  width: 1200px;
+  height: 5px;
+  background: lightgray;
+  position: absolute;
+  left: 20%;
+  top: 95%;
+}
+
+.newsTitle {
+  font-size: 20px;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+}
+
+.box9 {
+  width: 264px;
+  position: absolute;
+  left: 20%;
+  top: 110%;
+}
+
+.box9 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box9 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box9 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box10 {
+  width: 264px;
+  position: absolute;
+  left: 40%;
+  top: 110%;
+}
+
+.box10 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box10 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box10 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box11 {
+  width: 264px;
+  position: absolute;
+  left: 60%;
+  top: 110%;
+}
+
+.box11 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box11 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box11 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
+
+.box12 {
+  width: 264px;
+  position: absolute;
+  left: 80%;
+  top: 110%;
+}
+
+.box12 p:nth-of-type(1) {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+}
+
+.box12 p:nth-of-type(2) {
+  position: absolute;
+  left: 20%;
+  top: 115%;
+  color: gray;
+}
+
+.box12 p:nth-of-type(3) {
+  position: absolute;
+  left: 20%;
+  top: 125%;
+  color: gray;
+}
